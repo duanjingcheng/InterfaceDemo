@@ -1,0 +1,66 @@
+## Visual Studio 临时文件
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+## 用户特定文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## 构建结果
+[Dd]ebugPublic/
+[Rr]eleasePublic/
+[Bb]uild/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio 缓存/选项目录
+.vs/
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+## Visual Studio 项目文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## NuGet 包
+packages/
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## 其他文件
+*.cache
+*.bak
+*.swp
+*~ 
