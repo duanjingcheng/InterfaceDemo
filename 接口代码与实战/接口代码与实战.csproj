@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DoubleElevenShippingCalculator.cs" />
+    <Compile Include="IShippingCalculator.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderProcessor.cs" />
     <Compile Include="Program.cs" />

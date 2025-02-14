@@ -17,9 +17,17 @@ namespace 接口代码与实战
                 DatePlaced = DateTime.Now,
                 TotalPrice = 100f
             };
-            var orderProcessor = new OrderProcessor(); //订单处理系统
+
+            IShippingCalculator doubleEleven=new DoubleElevenShippingCalculator();
+            IShippingCalculator putong=new ShippingCalculator();
+            var orderProcessor = new OrderProcessor(doubleEleven); //订单处理系统
+            if (DateTime.Now != new DateTime(2050, 11, 11))
+            {
+                orderProcessor = new OrderProcessor(putong);
+            }
             orderProcessor.Process(order);
             Console.Read();
         }
     }
 }
+ 

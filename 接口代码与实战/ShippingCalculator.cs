@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace 接口代码与实战
 {
-     class ShippingCalculator
+     class ShippingCalculator:IShippingCalculator
     {
         public float CalculateShipping(Order order)
         {
